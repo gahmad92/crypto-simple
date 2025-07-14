@@ -1,0 +1,94 @@
+.dashboard-custom {
+  padding: 3rem;
+  background: linear-gradient(to bottom right, #eef2f3, #cfcfcf);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.headline-custom {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.trades-grid-custom {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.trade-card-custom {
+  background: rgba(255, 255, 255, 0.75);
+ 
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.trade-card-custom:hover {
+  transform: scale(1.03);
+}
+
+.card-top-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.symbol-custom {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  margin-bottom: 0.3rem;
+}
+
+.badge-custom {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.buy-custom {
+  background-color: #e6f9ec;
+  color: #27ae60;
+}
+
+.sell-custom {
+  background-color: #fbeaea;
+  color: #e74c3c;
+}
+
+.card-details-custom p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+  color: #34495e;
+}
+
+.loading-custom,
+.error-custom {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  color: #555;
+}
+
+
+.time-selector-custom {
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.dropdown-custom {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
